@@ -1,3 +1,4 @@
+import GameBoard from "./components/GameBoard";
 import Players from "./components/Players";
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <main>
       <div id="game-container">
         <Players />
+        <GameBoard />
       </div>
     </main>
   );
